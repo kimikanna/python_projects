@@ -2,8 +2,8 @@
 # найти количество полных килобайтов, которые занимает данный файл
 # (1 килобайт = 1024 байта).
 
-def get_kilobytes(bytes):
-    kilobytes = bytes // 1024
+def get_kilobytes(bts):
+    kilobytes = bts // 1024
     return kilobytes
 
 
