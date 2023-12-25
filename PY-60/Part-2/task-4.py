@@ -7,7 +7,7 @@ def get_quantity_of_b_in_a(a, b):
     return quantity
 
 
-a = int(input("Введите количество отрезков A: "))
-b = int(input("Введите количество отрезков B: "))
+a = int(input("Введите длину отрезка A: "))
+b = int(input("Введите длину отрезка B: "))
 
 print(f"Количество отрезков B, размещенных на отрезке A: {get_quantity_of_b_in_a(a, b)}")
